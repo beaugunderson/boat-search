@@ -9,17 +9,14 @@
   "author": "Beau Gunderson <beau@beaugunderson.com> (https://beaugunderson.com/)",
   "license": "MIT",
   "dependencies": {
-    "async": "^1.4.2",
+    "async": "^1.5.0",
     "cheerio": "^0.19.0",
-    "d3-scale": "^0.1.1",
-    "edit-google-spreadsheet": "^0.2.19",
+    "d3-scale": "^0.2.0",
+    "edit-google-spreadsheet": "^0.2.21",
     "google-sheets": "0.0.7",
     "lodash": "^3.10.1",
     "moment": "^2.10.6",
-    "request": "^2.61.0"
-  },
-  "devDependencies": {
-    "tap": "^0.3.3"
+    "request": "^2.67.0"
   },
   "repository": {
     "type": "git",
