@@ -1,1 +1,1 @@
-search: node search.js
+search: node boat-search.js
