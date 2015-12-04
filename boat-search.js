@@ -11,7 +11,7 @@ var specs = require('./data.js').specs;
 var _ = require('lodash');
 
 var searchUrl = 'http://www.yachtworld.com/core/listing/cache/searchResults.jsp';
-var fromDate = moment().subtract(10, 'days').valueOf();
+var fromDate = moment().subtract(process.env.SEARCH_DAYS, 'days').valueOf();
 
 var searchOptions = {
   // Ntt: '',
